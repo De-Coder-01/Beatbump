@@ -3,8 +3,8 @@
 	"version": "2.2.0",
 	"scripts": {
 		"dev": "svelte-kit dev --port 5000 --host",
-		"deploy": "npm run build && wrangler publish",
-		"deploy:clean": "npm run cache:delete && npm run build && wrangler publish",
+		"deploy": "npm run build",
+		"deploy:clean": "npm run cache:delete && npm run build",
 		"cache:delete": "rmdir /S /Q build && rmdir /S /Q .svelte-kit",
 		"build": "svelte-kit build",
 		"preview": "svelte-kit preview --host",
