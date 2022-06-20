@@ -16,6 +16,7 @@
 		"@snuffydev/adapter-cloudflare-cache": "^1.0.16",
 		"@sveltejs/adapter-cloudflare": "next",
 		"@sveltejs/adapter-cloudflare-workers": "next",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.64",
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.28.3",
