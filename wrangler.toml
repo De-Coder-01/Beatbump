@@ -1,0 +1,9 @@
+name = "dummy name"
+type = "javascript"
+account_id = "dummy id"
+workers_dev = false
+route = ""
+zone_id = ""
+[site]
+bucket = "./.cloudflare/assets"
+entry-point = "./.cloudflare/worker"
