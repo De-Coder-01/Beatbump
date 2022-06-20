@@ -1,7 +1,8 @@
 // /* eslint-disable no-undef */
 
 import node from '@sveltejs/adapter-node'
-import adapter from '@sveltejs/adapter-cloudflare-workers'
+import adapter from '@sveltejs/adapter-netlify'
+//import adapter from '@sveltejs/adapter-cloudflare-workers'
 // import worker from '@snuffydev/adapter-cloudflare-cache'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
